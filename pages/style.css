@@ -139,7 +139,6 @@ nav {
 
 .title{
     align-self: stretch;
-    color: var(--black, #121723);
     font-family: Anonymous Pro;
     font-size: 48px;
     font-style: normal;
@@ -149,7 +148,6 @@ nav {
 
 .description{
     align-self: stretch;
-    color: var(--black, #121723);
     font-family: Anonymous Pro;
     font-size: 36px;
     font-style: normal;
@@ -206,20 +204,20 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    align-self: stretch;    
+    align-self: stretch; 
 }
 
 .pa1{
-    color: var(--black, #121723);
     font-family: Anonymous Pro;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    color: black;
+    height: 10px;
 }
 
 .pa2{
-    color: var(--black, #121723);
     text-align: right;
     font-family: Anonymous Pro;
     font-size: 20px;
@@ -261,6 +259,11 @@ nav {
     border-radius: 12px;
     background: white;
     color: black;
+    transition: box-shadow ease-in-out 200ms, transform ease-in-out 100ms;
+}
+
+.sneaker:hover{
+    transform: translate(0px, -10px);
 }
 
 a{
@@ -475,7 +478,29 @@ footer .nav-link {
         display: flex;
     }
 
+    .pa1{
+        font-size: 16px;
+    }
+
+    .pa2{
+        font-size: 16px; 
+    }
     .cross_title1{
-        padding: 0px 90px 0px 0px;
+        font-size: 16px;
+    }
+
+    .t1{
+        font-size: 16px;
+    }
+    .description{
+        font-size: 20px;
+    }
+
+    .title{
+        font-size: 32px;
+    }
+
+    .sneaker_s_t{
+        font-size: 32px;
     }
 }

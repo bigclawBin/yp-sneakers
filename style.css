@@ -186,6 +186,14 @@ footer .nav-link {
     margin: 24px 0;
 }
 
+.sneaker{
+    transition: box-shadow ease-in-out 200ms, transform ease-in-out 100ms;
+}
+
+.sneaker:hover{
+    transform: translate(0px, -10px);
+}
+
 @media screen and (max-width: 768px){
     main{
         display: flex;
@@ -229,6 +237,9 @@ footer .nav-link {
     }
 
     .sneaker{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         height: auto;
     }
 
@@ -245,4 +256,9 @@ footer .nav-link {
     footer{
         width: auto;
     }
+    
+    h1{
+        font-size: 32px;
+    }
+
 }
